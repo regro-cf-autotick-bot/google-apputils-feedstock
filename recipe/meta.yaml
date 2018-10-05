@@ -8,7 +8,7 @@ source:
   md5: fb9fadf621dbecf28c8dabb5fe37ddb3
 
 build:
-  number: 0
+  number: 1000
   skip: true              # [py3k]
   preserve_egg_dir: true
   script: python setup.py install --single-version-externally-managed --record record.txt
